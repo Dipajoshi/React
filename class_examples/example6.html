@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This code will give error</title>
+
+    <script>
+        class Emp {
+            constructor() {
+                name = "Deepa"; //this code will give error because inside constructor this.name should be used.
+                salary = 50000; // this.salary shoul be written
+            }
+        }
+
+        let e1 = new Emp();
+        document.write(e1.name + "," + e1.salary);
+
+    </script>
+</head>
+
+<body>
+</body>
+</html>

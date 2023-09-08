@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Examples</title>
+
+    <script>
+        class Vehicle {
+            
+            accelerate() {
+                document.write("Vehicle accelerating... <br>")
+            }
+        }
+
+        class Car extends Vehicle {
+              
+            reverse() {
+                document.write("Vehicle reversing...")
+
+            }
+        }
+        let c1 = new Car();
+        c1.accelerate();
+        c1.reverse();
+
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
